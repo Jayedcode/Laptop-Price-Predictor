@@ -1,18 +1,25 @@
 # 💻 Laptop Price Predictor
 
-This is a Streamlit web app that predicts the price of a laptop based on various input features using a machine learning model.
+🧾 About This Project
+
+The Laptop Price Predictor is a machine learning web application built with Streamlit that allows users to estimate the price of a laptop based on its specifications.
+
+This project solves a practical problem: estimating the market value of a laptop using real-world data. It can be helpful for both buyers and sellers who want to understand the fair price of a laptop before making a transaction.
 
 ---
 
 ## 📂 Project Structure
-Laptop-Price-Predictor/
-├── app.py # Streamlit app file
-├── pipe.pkl # Trained ML pipeline
-├── df.pkl # Dataset used for reference (e.g., for dropdowns)
-├── requirements.txt # Required Python packages
-└── data/ # (Optional) Additional dataset folder
+Laptop-Price-Predictor
 
----
+├── app.py # Streamlit app file
+
+├── pipe.pkl # Trained ML pipeline
+
+├── df.pkl # Dataset used for reference (e.g., for dropdowns)
+
+├── requirements.txt # Required Python packages
+
+└── data/ # (Optional) Additional dataset folder
 
 ## 🚀 How to Run the App
 
@@ -30,36 +37,27 @@ git clone https://github.com/Jayedcode/Laptop-Price-Predictor.git
 cd Laptop-Price-Predictor
 pip install -r requirements.txt
 streamlit run app.py
+
 🔍 Features
 Predicts laptop price based on specs:
-
 Brand
-
 RAM
-
 Processor
-
 Operating System
-
 GPU
-
 HDD/SSD
-
 Built using a machine learning pipeline
-
 User-friendly interface with Streamlit
 
-🧠 Technologies Used
+ 🧠 Technologies Used
+
 Python 🐍
-
 Pandas, NumPy
-
 Scikit-learn
-
 Streamlit
-
-Joblib (for model persistence)
 
 📌 Author
 Made with ❤️ by Jayed Akhtar
+
+
 

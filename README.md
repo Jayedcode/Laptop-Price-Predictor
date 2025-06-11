@@ -5,7 +5,12 @@ This is a Streamlit web app that predicts the price of a laptop based on various
 ---
 
 ## 📂 Project Structure
-
+Laptop-Price-Predictor/
+├── app.py # Streamlit app file
+├── pipe.pkl # Trained ML pipeline
+├── df.pkl # Dataset used for reference (e.g., for dropdowns)
+├── requirements.txt # Required Python packages
+└── data/ # (Optional) Additional dataset folder
 
 ---
 

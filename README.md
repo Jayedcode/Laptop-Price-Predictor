@@ -1,63 +1,41 @@
 # 💻 Laptop Price Predictor
 
-🧾 About This Project
+A **machine learning web app** built with **Streamlit** that helps users estimate the price of a laptop based on its specifications.
 
-The Laptop Price Predictor is a machine learning web application built with Streamlit that allows users to estimate the price of a laptop based on its specifications.
+This project provides a practical solution for buyers and sellers to estimate the fair market value of a laptop using real-world data.
 
-This project solves a practical problem: estimating the market value of a laptop using real-world data. It can be helpful for both buyers and sellers who want to understand the fair price of a laptop before making a transaction.
+👉 **Live App:** [Laptop Price Predictor](https://laptop-price-predictor-xzawe9ppde6gylq5bfuqfr.streamlit.app/)
 
 ---
 
 ## 📂 Project Structure
-Laptop-Price-Predictor
 
-├── app.py # Streamlit app file
+```text
+Laptop-Price-Predictor/
+├── app.py              # Streamlit app file
+├── pipe.pkl            # Trained ML pipeline
+├── df.pkl              # Dataset used for dropdowns
+├── requirements.txt    # Required Python packages
+└── data/               # (Optional) Additional dataset folder
 
-├── pipe.pkl # Trained ML pipeline
 
-├── df.pkl # Dataset used for reference (e.g., for dropdowns)
+🚀 How to Run the App
 
-├── requirements.txt # Required Python packages
+Option 1: Streamlit Cloud (Recommended)
+1.Go to Streamlit Cloud
+2.Link your GitHub repository
+3.Set app.py as the main file
+4.Deploy 🚀
 
-└── data/ # (Optional) Additional dataset folder
+Or use the deployed app directly here:
+👉 Try the App
 
-## 🚀 How to Run the App
-
-### 🔹 Option 1: Streamlit Cloud (Recommended)
-
-1. Go to [https://streamlit.io/cloud](https://streamlit.io/cloud)
-2. Link your GitHub repo
-3. Set `app.py` as the main file
-4. Deploy 🚀
-
-### 🔹 Option 2: Run Locally
-
-```bash
 git clone https://github.com/Jayedcode/Laptop-Price-Predictor.git
 cd Laptop-Price-Predictor
 pip install -r requirements.txt
 streamlit run app.py
 
-🔍 Features
-Predicts laptop price based on specs:
-Brand
-RAM
-Processor
-Operating System
-GPU
-HDD/SSD
-Built using a machine learning pipeline
-User-friendly interface with Streamlit
-
- 🧠 Technologies Used
-
-Python 🐍
-Pandas, NumPy
-Scikit-learn
-Streamlit
-
-📌 Author
+✍️ Author
 Made with ❤️ by Jayed Akhtar
-
 
 
